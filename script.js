@@ -12,7 +12,7 @@
 var password=document.getElementById("password");
 
  function genPassword() {
-    var chars = "0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    var chars = "0123456789abcdefghijklmnopqrstuvwxyz!()*+,-./:;<=>?@[\]^_`{|}~ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     var passwordLength = 12;
     var password = "";
  for (var i = 0; i <= passwordLength; i++) {
